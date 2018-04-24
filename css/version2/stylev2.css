@@ -60,6 +60,12 @@
 .bcontacts.bcontacts2{
     position: relative;
     margin-left: 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.bmtitle{
+    font-size: 30px;
+    font-weight: 700;
 }
