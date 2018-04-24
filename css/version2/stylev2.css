@@ -1,0 +1,58 @@
+.intro_v2 h1{
+    font-size: 54px;
+    margin: 0;
+}
+.intro_v2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background: darkgrey url(../../image/wide-preview/intro2.jpg) center -1px repeat;
+}
+.intro_v2 .intro_v2_block .border{
+    border-bottom: 1px solid #fff;
+    width: 68%;
+    margin: 0 auto 34px auto;
+}
+.intro_v2 .intro_v2_block{
+    padding: 55px 50px 50px 50px;
+    background-color: rgba(0,0,0,0.7);
+    border: solid 1px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    text-align: center;
+    margin: 0px 174px;
+
+}
+.intro_v2 .ordr_btn{
+    position: relative;
+    margin: 33px auto 20px auto;
+    display: block;
+    width: 236px;
+    border: solid 1px #fff;
+    line-height: 44px;
+    font-size: 37px;
+}
+.intro_v2 .title{
+
+}
+
+
+
+.intro_v2 .item2{
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 32px;
+}
+.intro_v2 .item{
+    margin-bottom: 36px;
+    display: inline-block;
+    width: 33%;
+
+}
+.intro_v2 .item i{
+    margin-bottom: -6px;
+    margin-right: 5px;
+    height: 36px;
+    width: 36px;
+
+    display: inline-block;
+}
