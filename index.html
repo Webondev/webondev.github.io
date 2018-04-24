@@ -307,60 +307,10 @@
     </div><!--/.footer-->
     
     <div class="backmodal"></div>
-         <div class="bmodal">
-      <div class="bmodal2">
-        <div class="bcontacts">
-               <ul >
-                    <li class="show_email"><a href="mailto:-"><i class="fa fa-envelope fa-fw"></i> <span >-</span></a></li>
-                    <li class="show_tel"><a href="tel:-"><i class="fa fa-phone fa-fw"></i> <span >099-000-00-00</span></a></li>
-                    <li class="show_skype"><a href="skype:-"><i class="fa fa-skype fa-fw"></i> <span >-</span></a></li>
-                </ul>
-        </div>
-        <!-- /.bcontacts -->
-        <div class="bmheader">
-            <div class="bmtitle">Задать вопрос</div>
-            <!-- /.bmtitle -->
-            <div class="bmclose" onclick="closeBmodal()">X</div>
-            <!-- /.bmclose -->
-        </div>
-        <!-- /.bmheader -->
-        <div class="bmform">
-            <form action="/" method="post" enctype="multipart/form-data">
-                <div class="input">
-                    <input type="text" name="data[name]" placeholder="Name..." required>
-                </div>
-                <div class="input">
-                    <input type="email" name="data[email]" placeholder="Email..." required>
-                </div>
-                <div class="input">
-                    <textarea name="data[message]" id="" cols="65" rows="6" 
-                    placeholder="Message..." required></textarea>
-                </div>
-                <div class="files_list">
-                   
-                </div>
-                <div class="input default_file">
-                    <input type="file" name="data[files][]"> <a href="#" class="delItFile" onclick="return delthisFile(this)">Удалить</a>
-                </div>
-                
-                <div class="input">
-                    <a href="#" class="addMoreFile" onclick="return addFileInput()">Add more files</a><br><br>
-                    maximum size: 50 Мгб
-                </div>
-                <div class="input bbuttons">
-                    <input type="submit" value="Send">
-                    <div class="blinks">
-                       <!--input type="reset" value="Очистить форму" /-->
-                        <a href="#" onclick="return closeBmodal()">Close</a>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <!-- /.bmform -->
-      </div>
-    <!-- /.bmodal2 -->
-      </div>
-    <!-- /.bmodal -->
+
+   {% include form2.html %}
+
+
             
  
 </body>
