@@ -50,8 +50,8 @@ function openJivoForm(){
 }
 	
 function setContacts(){
-    $(".show_email a").attr("href", "mailto:mybi"+"znetmai"+"l@gmai"+"l.com")
-    $(".show_email span").text("mybiz"+"netmail"+"@gma"+"il.com");
+    $(".show_email a").attr("href", "mailto:rodg"+"ertmai"+"l@gmai"+"l.com")
+    $(".show_email span").text("rodg"+"ertmail"+"@gma"+"il.com");
     
     $(".show_tel a").attr("href", "tel:"+"+38-099-"+"19-"+"77"+"7-42")
     $(".show_tel span").text("+38-099-"+"19-"+"77"+"7-42");

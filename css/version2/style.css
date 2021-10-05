@@ -607,13 +607,13 @@ font-size: 18px;
 }
 .portfolio ul{
     list-style-type:none;
-    margin-left: -10px;
+    margin-left: -24px;
 }
 .portfolio ul li {
     display: inline-block;
 /*  margin-left:-.36em;*/
-    padding-right: 16px;
-    padding-top: 20px;
+    
+    vertical-align: top;
 }
 /******* shop sell**********/
 .shop_sites{
@@ -681,7 +681,7 @@ font-size: 18px;
 	text-align:center;
 }
 
-/*******верстка страница********/
+/*******пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ********/
 .ordr_btn2{
 	border: solid 6px #fff;
 	color: #fff;
@@ -922,4 +922,8 @@ vertical-align:top;
 .intro_inner_en .proger_block{
 height: 323px;
 
+}
+.more_items{
+    font-size: 24px;
+    margin-top: 14px;
 }
