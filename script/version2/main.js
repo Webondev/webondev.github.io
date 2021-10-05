@@ -49,12 +49,12 @@ function openJivoForm(){
 	$("#jivo-label-wrapper").click();
 }
 	
-function setContacts(){
+function setContacts(){  
     $(".show_email a").attr("href", "mailto:rodg"+"ertmai"+"l@gmai"+"l.com")
     $(".show_email span").text("rodg"+"ertmail"+"@gma"+"il.com");
     
-    $(".show_tel a").attr("href", "tel:"+"+38-099-"+"19-"+"77"+"7-42")
-    $(".show_tel span").text("+38-099-"+"19-"+"77"+"7-42");
+    $(".show_tel a").attr("href", "tel:"+"+38-073-"+"18-"+"50"+"6-46")
+    $(".show_tel span").text("+38-073-"+"18-"+"50"+"6-46");
     
     $(".show_skype a").attr("href", "skype:x"+"netma"+"ster")
     $(".show_skype span").text("xne"+"tmast"+"er");
